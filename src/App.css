@@ -1,0 +1,48 @@
+.mainTodo{
+  border: 1px solid black;
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 25rem;
+}
+.addTodo{
+  text-align: center;
+}
+.add{
+  margin-left: 20px;
+  width: 15%;
+  height: 35px;
+  size: 20px;
+  font-size: 20px;
+  background-color: #fd49fd;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+.dlt{
+  background-color: #fd49fd;
+  color: white;
+}
+
+button:hover{
+  background-color: green;
+}
+
+input[type="text"]{
+  border: none;
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+input[type="text"]:focus{
+  outline: none;
+}
+
+li{
+  list-style: none;
+  margin-top: 40px;
+  display: inline-block;
+  margin-left: 20px;
+}
